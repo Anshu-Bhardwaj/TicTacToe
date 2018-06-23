@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Reset" android:id="@+id/resetItem"/>
+    <item android:title="Size" android:id="@+id/size">
+    <menu>
+        <item android:title="3*3" android:id="@+id/size3"/>
+        <item android:title="4*4" android:id="@+id/size4"/>
+        <item android:title="5*5" android:id="@+id/size5"/>
+
+    </menu>
+             </item>
+
+</menu>
